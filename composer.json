@@ -1,0 +1,31 @@
+{
+    "name": "anomaly-module/logger",
+    "description": "The module logger for anomaly add-ons.",
+    "type": "anomaly-addons",
+    "license": "BSD 3-Clause",
+    "homepage": "https://anomaly.ink",
+    "authors": [
+        {
+            "name": "Anomaly Team",
+            "email": "team@anomaly.ink",
+            "homepage": "https://team.anomaly.ink"
+        },
+        {
+            "name": "Olivia Fu",
+            "email": "olivia.fu@anomaly.ink",
+            "homepage": "https://olivia.ink",
+            "role": "Owner"
+        },
+        {
+            "name": "Bill Lee",
+            "email": "bill.li@anomaly.ink",
+            "homepage": "https://artisanbill.com",
+            "role": "Owner"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Anomaly\\Module\\Logger\\": "src/"
+        }
+    }
+}
