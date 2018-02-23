@@ -42,7 +42,7 @@ class LoggerServiceProvider extends AddonServiceProvider
 	 *	@var		array|null
 	 */
 	protected $routes = [
-		'logger'			=> 'Anomaly\Logger\Http\Controller\Admin\LoggerController@index',
+		'logger'			=> 'Admin\LoggerController@index',
  ];
 
 	/**
